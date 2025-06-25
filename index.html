@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open Me 💌</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 id="pageHeading">Hi Dolens hihi, click nang murag envelope below sa arrow AHAHAHAHAH lalers</h1>
+  <div class="arrow-point">&#x2B07;</div>
+
+  <div class="envelope-container">
+    <div class="envelope" onclick="openMessage()">
+      <div class="flap"></div>
+      <div class="pin"></div>
+      <div class="body"></div>
+    </div>
+    <div class="arrow-down">&#x25BC;</div>
+  </div>
+
+  <div class="content-container">
+    <div class="frames-container left-frames" id="leftFramesContainer" style="display:none;">
+      <div class="frame">
+        <img src="assets/cat.png" alt="Cat" class="frame-photo" />
+      </div>
+      <div class="frame">
+        <img src="assets/photo1.jpg" alt="Photo 1" class="frame-photo" />
+      </div>
+    </div>
+
+    <div class="message" id="message">
+      Dolens, Breakups are really painful, especially when you gave everything your love, your effort, your heart. But always remember, your worth is not measured by someone who decides to leave. You are still the same beautiful, strong, and kind-hearted girl nga akong na ilhan. Ayaw pugsa imong self nga maka-move on dayon  healing takes time, and that’s completely okay. Kung kinahanglan nimo og ka talk, am here if you need em. You’re not alone, and you don’t have to go through this pain by yourself.  
+      <br><br>
+      I always say this, Be happy lang kay graduation na nimo next month, one of the best day of your life is comming
+    </div>
+
+    <div class="frames-container right-frames" id="rightFramesContainer" style="display:none;">
+      <div class="frame">
+        <img src="assets/photo2.jpg" alt="Photo 2" class="frame-photo" />
+      </div>
+      <div class="frame">
+        <img src="assets/photo3.jpg" alt="Photo 3" class="frame-photo" />
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-arrow" id="scrollArrow" onclick="scrollDown()" style="display:none;">&#x25BC;</div>
+
+  <div class="overlay" id="overlay1" style="display:none;">
+    <div class="overlay-content">
+      <p>PLAY COD NALANG W/ME? hihihi</p>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay2" style="display:none;">
+    <div class="overlay-content">
+      <p>SHAT KTV?</p>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay3" style="display:none;">
+    <div class="overlay-content">
+      <p>ICE CREAM SABAY BAKLAY2?</p>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay4" style="display:none;">
+    <div class="overlay-content">
+      <p>OR SHAT KTV</p>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay5" style="display:none;">
+    <div class="overlay-content">
+      <p>OR SHAT KTV HAHAHAHAHA</p>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay6" style="display:none;">
+    <div class="overlay-content">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7yZu1o-heb0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <button id="videoButton" style="display:none;" onclick="goToClickMe()">Click Me</button>
+
+  <script src="script.js"></script>
+
+  <button id="animatedButton" style="display:none;">Click Me</button>
+
+  <script>
+    function goToClickMe() {
+      window.location.href = "clickme.html";
+    }
+  </script>
+</body>
+</html>
